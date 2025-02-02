@@ -402,6 +402,10 @@
     [
       "528e496b-ccc4-4c28-b7b2-36634450f252",
       "Battery Management"
+    ],
+    [
+      "e7230729-0c18-4190-92b9-ebfc1e601d19",
+      "Capacitive Touch"
     ]
   ],
   "text_variables": {}
