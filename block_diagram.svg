@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="block_diagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3843855"
+     inkscape:cx="714.03521"
+     inkscape:cy="482.52455"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="360"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch6"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.146967;stroke-opacity:1"
+       id="rect6"
+       width="49.808735"
+       height="35.665878"
+       x="132.66344"
+       y="80.07235" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="139.42087"
+       y="99.597687"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="139.42087"
+         y="99.597687">STM32 Microcontroller</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="55.452858"
+       y="36.862946"
+       id="text6-5"><tspan
+         sodipodi:role="line"
+         id="tspan6-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="55.452858"
+         y="36.862946">8x8 LED Matrix</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="148.36996"
+       y="43.734005"
+       id="text6-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan6-9-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="148.36996"
+         y="43.734005">Shift Register</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="106.10512"
+       y="42.591827"
+       id="text6-5-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan6-9-1-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="106.10512"
+         y="42.591827">Vertical Control</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="36.433067"
+       y="71.685783"
+       id="text6-5-5-7-9"><tspan
+         sodipodi:role="line"
+         id="tspan6-9-1-2-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="36.433067"
+         y="71.685783">Horizontal Control</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="225.2059"
+       y="100.20718"
+       id="text6-0"><tspan
+         sodipodi:role="line"
+         id="tspan6-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="225.2059"
+         y="100.20718">IR Transceiver</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="221.90187"
+       y="133.16322"
+       id="text6-0-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="221.90187"
+         y="133.16322"
+         id="tspan21">Broken out</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="221.90187"
+         y="137.13197"
+         id="tspan22">programming pins</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="223.26167"
+       y="64.351105"
+       id="text6-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan6-3-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="223.26167"
+         y="64.351105">Capacitive Touch</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="223.26167"
+         y="68.319855"
+         id="tspan20">Sensor</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect7"
+       width="39.752895"
+       height="14.142858"
+       x="216.23689"
+       y="91.617538" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect8"
+       width="56.380306"
+       height="34.783783"
+       x="39.642303"
+       y="18.992058" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.169947;stroke-opacity:1"
+       id="rect9"
+       width="40.637241"
+       height="17.122532"
+       x="138.673"
+       y="34.188339" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="56.70977"
+       y="93.775215"
+       id="text6-5-5-0"><tspan
+         sodipodi:role="line"
+         id="tspan6-9-1-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="56.70977"
+         y="93.775215">Shift Register</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="72.34771"
+       y="134.8466"
+       id="text6-5-5-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan6-9-1-4-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="72.34771"
+         y="134.8466">3.3 V LDO</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="72.34771"
+         y="138.81535"
+         id="tspan16">voltage regulator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="75.38726"
+       y="166.84305"
+       id="text6-5-5-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan6-9-1-4-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="75.38726"
+         y="166.84305">LiPo Battery</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="75.38726"
+         y="170.8118"
+         id="tspan15">3.7 V - 4.2 V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="203.83884"
+       y="168.62891"
+       id="text6-5-5-0-4-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="203.83884"
+         y="168.62891"
+         id="tspan384">USB C Port</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="203.83884"
+         y="172.59766"
+         id="tspan17" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="140.91267"
+       y="169.79898"
+       id="text6-5-5-0-4-4-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="140.91267"
+         y="169.79898"
+         id="tspan15-1-5">LiPo Charger</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="140.91267"
+         y="173.76773"
+         id="tspan17-8" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="145.40813"
+       y="134.73848"
+       id="text6-5-5-0-4-4-0-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="145.40813"
+         y="134.73848"
+         id="tspan15-1-5-2">Crystal Oscillator</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke-width:0.264583"
+         x="145.40813"
+         y="138.70723"
+         id="tspan17-8-0" /></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.169947;stroke-opacity:1"
+       id="rect9-7"
+       width="40.637241"
+       height="17.122532"
+       x="47.012821"
+       y="84.229546" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 96.02261,44.267637 h 42.71526"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 66.49462,84.259431 V 53.680281"
+       id="path11" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 87.72906,93.246009 h 44.91783"
+       id="path12" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 160.57061,51.419552 V 80.102578"
+       id="path13" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 182.46362,98.516553 h 33.65037"
+       id="path14" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect14"
+       width="49.1917"
+       height="27.298693"
+       x="60.212425"
+       y="155.07419" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       x="77.571526"
+       y="185.95543"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="stroke-width:0.264583"
+         x="77.571526"
+         y="185.95543" /></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect15"
+       width="37.650581"
+       height="12.23166"
+       x="66.781296"
+       y="129.45923" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 132.57426,111.58955 H 85.499212 v 17.8697"
+       id="path16" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 85.431643,141.62686 v 13.44663"
+       id="path17" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect17"
+       width="36.12162"
+       height="23.698841"
+       x="194.067"
+       y="155.45152" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect18"
+       width="37.268341"
+       height="12.805019"
+       x="132.33536"
+       y="161.75847" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 169.55756,168.72284 h 24.56206"
+       id="path18" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 132.29214,168.79041 H 109.38556"
+       id="path19" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect19"
+       width="35.407215"
+       height="16.217043"
+       x="140.36687"
+       y="125.47739" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 158.7462,125.54496 v -9.7978"
+       id="path20" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect20"
+       width="40.812893"
+       height="29.190678"
+       x="214.69499"
+       y="51.149265" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="m 214.55985,65.204039 h -16.62247 l -0.40542,21.487584 h -15.06834"
+       id="path21" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect21"
+       width="37.299202"
+       height="20.811871"
+       x="217.12755"
+       y="123.31512" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       d="M 217.11197,134.40492 H 197.6671 v -22.30659 h -15.23727"
+       id="path22" />
+  </g>
+</svg>
