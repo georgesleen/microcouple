@@ -2476,6 +2476,26 @@
 				(justify left top)
 			)
 		)
+		(pin "IR.RX" output
+			(at 213.36 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82ba596b-0ae4-4bea-8ec4-c61417d9a3ff")
+		)
+		(pin "IR.TX" input
+			(at 213.36 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d8b55c9-e657-4123-8d43-5bd870ce3061")
+		)
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267"
