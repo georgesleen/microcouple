@@ -504,42 +504,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Optical:TSOP341xx"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "GS_Optoelectronic:IRM-V838M3-C_TR1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.16 7.62 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "TSOP341xx"
-				(at -10.16 -7.62 0)
+			(property "Value" "IRM-V838M3-C/TR1"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "OptoDevice:Vishay_MOLD-3Pin"
-				(at -1.27 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/82490/tsop321.pdf"
-				(at 16.51 7.62 0)
+			(property "Footprint" "easyeda2kicad:OPTO-SMD_IRM-V838M3-C-TR1"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -547,7 +533,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "IR Receiver Modules for Remote Control Systems"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -556,7 +542,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "opto IR receiver"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -565,8 +551,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Vishay*MOLD*"
-				(at 0 0 0)
+			(property "LCSC Part" "C3291489"
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -574,13 +560,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "TSOP341xx_0_0"
-				(arc
-					(start -10.287 -1.778)
-					(mid -11.0899 -0.1905)
-					(end -10.287 1.397)
+			(symbol "IRM-V838M3-C_TR1_0_1"
+				(rectangle
+					(start -3.683 4.445)
+					(end 16.256 -6.985)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -589,7 +574,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 5.08) (xy 0.127 5.08)
+						(xy 11.938 -2.794) (xy 13.335 -2.794) (xy 13.462 -2.794)
 					)
 					(stroke
 						(width 0)
@@ -601,7 +586,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -5.08) (xy 0.127 -5.08)
+						(xy 12.7 -5.08) (xy 13.335 -5.08) (xy 12.7 -5.715) (xy 12.065 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -611,271 +596,28 @@
 						(type none)
 					)
 				)
-				(text "DEMOD"
-					(at -3.175 0.254 900)
-					(effects
-						(font
-							(size 1.524 1.524)
+				(pin unspecified line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
 					)
 				)
-			)
-			(symbol "TSOP341xx_0_1"
-				(polyline
-					(pts
-						(xy -8.763 0.381) (xy -9.652 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.763 0.381) (xy -9.271 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.763 0.381) (xy -8.763 0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.636 -0.635) (xy -9.525 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.636 -0.635) (xy -9.144 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.636 -0.635) (xy -8.636 -0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.382 0.635) (xy -6.731 0.635) (xy -7.62 -1.016) (xy -8.382 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.382 -1.016) (xy -6.731 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -6.096 5.588)
-					(end 0.127 -5.588)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.096 1.397) (xy -7.62 1.397) (xy -7.62 -1.778) (xy -6.096 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.905 -1.905) (xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.921) (xy 0.127 -2.921)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.175) (xy 1.905 -3.81) (xy 1.905 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -3.556) (xy 1.524 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 -3.556) (xy 1.524 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 -3.556) (xy 1.651 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 4.445) (xy 1.905 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 1.27)
-					(end 1.27 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 6.35)
-					(end -10.16 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TSOP341xx_1_1"
-				(pin power_in line
-					(at 10.16 5.08 180)
+				(pin unspecified line
+					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "Vs"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -890,10 +632,241 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
+			)
+			(symbol "IRM-V838M3-C_TR1_1_1"
+				(polyline
+					(pts
+						(xy 3.429 2.54) (xy 4.064 3.175) (xy 4.699 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 3.048) (xy 4.064 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0) (xy 4.064 0.762) (xy 4.318 0.762) (xy 4.318 2.032) (xy 3.81 2.032) (xy 3.81 0.762)
+						(xy 4.064 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.064 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -5.08) (xy 4.699 -5.08) (xy 4.064 -5.715) (xy 3.429 -5.08) (xy 4.064 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -2.794) (xy 4.064 -3.048) (xy 4.064 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.016) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.524) (xy 5.08 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.524) (xy 5.08 -2.159) (xy 5.08 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.524) (xy 7.62 -1.524) (xy 7.62 -0.254) (xy 10.16 -0.254) (xy 10.16 -2.794) (xy 7.62 -2.794)
+						(xy 7.62 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 4.318 -2.794) (xy 4.318 -2.286) (xy 4.826 -2.794) (xy 4.318 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.524) (xy 12.7 -1.524) (xy 12.7 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -4.064) (xy 12.7 -4.064) (xy 11.938 -4.064) (xy 12.7 -2.794) (xy 13.462 -4.064) (xy 12.7 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.716 -3.175) (xy 13.716 -2.921) (xy 13.97 -3.175) (xy 13.716 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.716 -3.175) (xy 14.224 -2.667) (xy 14.224 -2.921) (xy 14.732 -2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -3.81) (xy 13.97 -3.556) (xy 14.224 -3.81) (xy 13.97 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -3.81) (xy 14.478 -3.302) (xy 14.478 -3.556) (xy 14.986 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -3.81 0)
 					(length 2.54)
-					(name "OUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -909,8 +882,9 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 -5.08 180)
+					(at -6.35 -3.81 0)
 					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -918,7 +892,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1184,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 83.82) (xy 74.93 83.82)
+			(xy 71.12 81.28) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 87.63) (xy 71.12 83.82)
+			(xy 71.12 87.63) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 71.12 73.66)
+			(xy 71.12 63.5) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1264,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 74.93 73.66)
+			(xy 71.12 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1335,6 +1309,91 @@
 		(uuid "ea294034-5786-4ef2-8d22-7a457a134f0c")
 	)
 	(symbol
+		(lib_id "GS_Optoelectronic:IRM-V838M3-C_TR1")
+		(at 81.28 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00cae366-100f-42e3-9119-30a1a4ecd24c")
+		(property "Reference" "U5"
+			(at 99.06 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRM-V838M3-C/TR1"
+			(at 99.06 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:OPTO-SMD_IRM-V838M3-C-TR1"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3291489"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d4ff22d-9139-4834-8c76-7258a1af726f")
+		)
+		(pin "3"
+			(uuid "3339bc0d-b6df-4dba-8165-1bfc09ff0886")
+		)
+		(pin "4"
+			(uuid "b9c967ea-d872-4bb2-9d1c-a47e4eb9205d")
+		)
+		(pin "1"
+			(uuid "8be7f6cb-c51d-4c64-b7f9-fa7800db6e19")
+		)
+		(instances
+			(project ""
+				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 87.63 0)
 		(unit 1)
@@ -1343,7 +1402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34b04fec-7dd6-4c4f-8db5-c8bd2ef902d1")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 71.12 93.98 0)
 			(effects
 				(font
@@ -1393,7 +1452,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -1408,7 +1467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a88ec2e-5550-4b2f-8bdd-c5073729d378")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 71.12 66.04 0)
 			(effects
 				(font
@@ -1458,90 +1517,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Optical:TSOP341xx")
-		(at 85.09 78.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f2d5e15-0fad-49fa-bcd8-ddd7224a5b0b")
-		(property "Reference" "U8"
-			(at 97.79 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TSOP34138"
-			(at 97.79 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "OptoDevice:Vishay_MOLD-3Pin"
-			(at 86.36 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121755_Vishay-Intertech-TSOP34138_C118303.pdf"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IR Receiver Modules for Remote Control Systems"
-			(at 85.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC ID" "C118303"
-			(at 85.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "678c6b40-72f9-481b-b1dd-9b24489e0346")
-		)
-		(pin "2"
-			(uuid "96a142bc-66dc-44ae-82d7-fde64549477b")
-		)
-		(pin "3"
-			(uuid "ef8ac1a2-4df9-4d1d-93b8-f73c6eedda27")
-		)
-		(instances
-			(project "microcouple"
-				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
-					(reference "U8")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1556,7 +1532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6549d9fc-66df-4505-981e-e13a73300a0a")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR073"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -1606,7 +1582,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -1622,7 +1598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bc02fbf-8e72-4850-8129-cc221a3222ce")
-		(property "Reference" "D1"
+		(property "Reference" "D69"
 			(at 125.73 60.0074 90)
 			(effects
 				(font
@@ -1640,7 +1616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+		(property "Footprint" "easyeda2kicad:LED-SMD_L3.0-W2.7-RD"
 			(at 121.92 59.69 0)
 			(effects
 				(font
@@ -1676,6 +1652,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C181893"
+			(at 121.92 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f433e498-59c5-4bea-8a21-212a24916366")
 		)
@@ -1685,7 +1670,7 @@
 		(instances
 			(project ""
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
-					(reference "D1")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -1700,7 +1685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "850fcd06-216a-44c4-af62-194d46f5aaae")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 63.5 93.98 0)
 			(effects
 				(font
@@ -1750,7 +1735,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1836,7 +1821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeabb439-05f4-4f4f-b2a2-7becbbbafc42")
-		(property "Reference" "R2"
+		(property "Reference" "R16"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -1890,7 +1875,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/6409c937-888b-495c-b718-919d7d6f3ec9"
-					(reference "R2")
+					(reference "R16")
 					(unit 1)
 				)
 			)
