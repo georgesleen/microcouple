@@ -1096,14 +1096,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Connectors:USB_C_Plug"
+		(symbol "GS_Connectors:USB_C_Socket"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
+			(property "Reference" "J"
 				(at 10.16 29.21 0)
 				(effects
 					(font
@@ -1112,7 +1112,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "USB_C_Plug"
+			(property "Value" "USB_C_Socket"
 				(at -11.43 0 0)
 				(effects
 					(font
@@ -1139,7 +1139,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Type-C Plug connector"
+			(property "Description" "USB Type-C Socket connector"
 				(at 0.508 53.594 0)
 				(effects
 					(font
@@ -1157,7 +1157,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus"
+			(property "ki_keywords" "usb c universal serial bus"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1175,18 +1175,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_0_0"
-				(rectangle
-					(start -6.604 27.94)
-					(end -6.096 26.924)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "USB_C_Socket_0_0"
 				(rectangle
 					(start -0.254 27.94)
 					(end 0.254 26.924)
@@ -1201,6 +1190,17 @@
 				(rectangle
 					(start -0.254 -35.56)
 					(end 0.254 -34.544)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 9.144 -28.194)
+					(end 10.16 -27.686)
 					(stroke
 						(width 0)
 						(type default)
@@ -1342,8 +1342,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -27.686)
-					(end 9.144 -28.194)
+					(start 10.16 -25.146)
+					(end 9.144 -25.654)
 					(stroke
 						(width 0)
 						(type default)
@@ -1353,7 +1353,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_0_1"
+			(symbol "USB_C_Socket_0_1"
 				(rectangle
 					(start -10.16 27.94)
 					(end 10.16 -35.56)
@@ -1473,7 +1473,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_1_1"
+			(symbol "USB_C_Socket_1_1"
 				(circle
 					(center -2.54 1.143)
 					(radius 0.635)
@@ -1553,24 +1553,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 33.02 270)
-					(length 5.08)
-					(name "VCONN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -1995,10 +1977,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -27.94 180)
+				(pin passive line
+					(at 15.24 -25.4 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2006,6 +1988,24 @@
 						)
 					)
 					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -27.94 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5151,10 +5151,6 @@
 		(uuid "c097adcd-c1ec-48c3-8b37-25a320087b30")
 	)
 	(no_connect
-		(at 39.37 66.04)
-		(uuid "c21ef76f-938d-46c7-956e-2839ece80971")
-	)
-	(no_connect
 		(at 185.42 121.92)
 		(uuid "c550a35b-740a-4d2b-8e67-4b827403f1b0")
 	)
@@ -5226,6 +5222,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 139.7) (xy 67.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062c3ea0-67e1-49bb-80a2-77443a5a6b68")
+	)
+	(wire
+		(pts
+			(xy 67.31 124.46) (xy 60.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09227632-2633-4959-a8bc-ad2a738c3c98")
+	)
+	(wire
+		(pts
 			(xy 92.71 116.84) (xy 85.09 116.84)
 		)
 		(stroke
@@ -5283,6 +5299,16 @@
 			(type default)
 		)
 		(uuid "1d09a7ed-9900-4cfa-b8e8-8ed6aae86c6c")
+	)
+	(wire
+		(pts
+			(xy 67.31 148.59) (xy 67.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d195053-99ee-4e00-8aea-a5035c94f0c4")
 	)
 	(wire
 		(pts
@@ -7843,6 +7869,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 143.51 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aaeb61a-028a-41f2-a277-56233a9a4aef")
+		(property "Reference" "R17"
+			(at 69.85 144.7801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 69.85 142.2401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 68.326 143.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a698e89a-acbb-42b5-85ff-f6b1dde70574")
+		)
+		(pin "2"
+			(uuid "a1b9a096-8778-41d2-9c4d-84aa3c17c940")
+		)
+		(instances
+			(project "microcouple"
+				(path "/d639f16d-aedb-4af6-af94-94ea25244267"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 33.02 0)
 		(unit 1)
@@ -8675,7 +8771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Connectors:USB_C_Plug")
+		(lib_id "GS_Connectors:USB_C_Socket")
 		(at 45.72 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8684,7 +8780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f366d32-425e-4c9d-bf90-13ef300e184d")
-		(property "Reference" "P1"
+		(property "Reference" "J1"
 			(at 34.29 101.5999 0)
 			(effects
 				(font
@@ -8693,7 +8789,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Plug"
+		(property "Value" "USB_C_Socket"
 			(at 34.29 104.1399 0)
 			(effects
 				(font
@@ -8703,7 +8799,7 @@
 			)
 		)
 		(property "Footprint" "GS_Connectors:USB-C-SMD"
-			(at 49.53 100.33 0)
+			(at 45.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C Plug connector"
+		(property "Description" "USB Type-C Socket connector"
 			(at 46.228 45.466 0)
 			(effects
 				(font
@@ -8730,7 +8826,7 @@
 			)
 		)
 		(property "LCSC ID" "C2681555"
-			(at 45.72 99.06 0)
+			(at 45.72 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8912,7 @@
 		(instances
 			(project ""
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267"
-					(reference "P1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9017,6 +9113,71 @@
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "779c8c58-647a-4aec-a2b4-1c3386ed6d75")
+		(property "Reference" "#PWR079"
+			(at 67.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d90777a5-143f-4617-bf70-79e01cd231ba")
+		)
+		(instances
+			(project "microcouple"
+				(path "/d639f16d-aedb-4af6-af94-94ea25244267"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -10045,8 +10206,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 119.38 81.28 90)
-		(mirror x)
+		(at 119.38 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10070,7 +10230,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 119.634 82.296 90)
+			(at 119.126 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
