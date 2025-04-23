@@ -2128,12 +2128,6 @@
 		(uuid "f8337bdb-18ee-484d-8bcc-f611d1047ffa")
 	)
 	(junction
-		(at 62.23 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9d83650-0983-4630-8726-4d7567bd4fa3")
-	)
-	(junction
 		(at 74.93 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3165,16 +3159,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 48.26) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b5c701-840b-40b2-a6d7-021b8e63f3fb")
-	)
-	(wire
-		(pts
 			(xy 237.49 109.22) (xy 237.49 121.92)
 		)
 		(stroke
@@ -3822,16 +3806,6 @@
 			(type default)
 		)
 		(uuid "9fcbbf55-76c4-43ff-aba6-b3daf20e8f9c")
-	)
-	(wire
-		(pts
-			(xy 46.99 45.72) (xy 62.23 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0abc5ea-0c24-46ab-9e67-2286279fcae2")
 	)
 	(wire
 		(pts
@@ -4894,7 +4868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c22c34c-aed0-4001-8565-ed6d206fb0a0")
-		(property "Reference" "D52"
+		(property "Reference" "D66"
 			(at 247.65 99.06 0)
 			(effects
 				(font
@@ -4946,7 +4920,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D52")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -4962,7 +4936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fc6c5d0-4564-46c9-acb6-0ef2546287c1")
-		(property "Reference" "D7"
+		(property "Reference" "D21"
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -5014,7 +4988,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D7")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -5031,7 +5005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "105edda9-d33d-4bf8-9acf-554beb7320af")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 66.04 50.7999 0)
 			(effects
 				(font
@@ -5085,7 +5059,7 @@
 		(instances
 			(project ""
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c087bb-61ef-4a27-93f1-70ca6885bf7d")
-		(property "Reference" "D22"
+		(property "Reference" "D15"
 			(at 171.45 60.96 0)
 			(effects
 				(font
@@ -5153,7 +5127,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D22")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5169,7 +5143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16fb22e7-7393-45c9-aad8-c5e291c62d7a")
-		(property "Reference" "D25"
+		(property "Reference" "D39"
 			(at 209.55 60.96 0)
 			(effects
 				(font
@@ -5221,7 +5195,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D25")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -5237,7 +5211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17081e1a-e423-47c1-b0f2-be1cd1a9ab06")
-		(property "Reference" "D31"
+		(property "Reference" "D24"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -5289,72 +5263,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "288904c4-b5f3-4c9a-80c0-d1b9b5818706")
-		(property "Reference" "#PWR055"
-			(at 46.99 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e705963d-c1c2-41ea-a43f-daedf1fc9ba4")
-		)
-		(instances
-			(project "microcouple"
-				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "#PWR055")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -5371,7 +5280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33744d7d-5017-42da-b58c-d66f5cff9873")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 43.18 81.2799 0)
 			(effects
 				(font
@@ -5425,7 +5334,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33f80679-33c6-40d2-a534-afec875d517e")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 74.93 142.24 0)
 			(effects
 				(font
@@ -5490,7 +5399,7 @@
 		(instances
 			(project ""
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5506,7 +5415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3721a68f-f9fb-4665-989d-8b8cd5594ab5")
-		(property "Reference" "D24"
+		(property "Reference" "D31"
 			(at 196.85 60.96 0)
 			(effects
 				(font
@@ -5558,7 +5467,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D24")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37bea829-334e-44f4-86e4-6fa62da340b6")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 54.61 81.2799 0)
 			(effects
 				(font
@@ -5628,7 +5537,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5644,7 +5553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b0c3a8d-d878-443b-b7d3-b20328654c01")
-		(property "Reference" "D28"
+		(property "Reference" "D63"
 			(at 247.65 60.96 0)
 			(effects
 				(font
@@ -5696,7 +5605,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D28")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -5712,7 +5621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e7f52cb-ae38-45f1-a471-96c696533806")
-		(property "Reference" "D47"
+		(property "Reference" "D26"
 			(at 184.15 99.06 0)
 			(effects
 				(font
@@ -5764,7 +5673,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D47")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -5780,7 +5689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a2213c-c12a-46d1-9248-b020d8844a51")
-		(property "Reference" "D60"
+		(property "Reference" "D67"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -5832,7 +5741,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D60")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -5848,7 +5757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460ea2b1-ab7c-48af-af68-1162f2dd8934")
-		(property "Reference" "D67"
+		(property "Reference" "D60"
 			(at 234.95 124.46 0)
 			(effects
 				(font
@@ -5900,7 +5809,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D67")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -5915,7 +5824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5216c603-d0c6-4b3f-94cf-44dc2b4b662a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR056"
 			(at 34.29 142.24 0)
 			(effects
 				(font
@@ -5965,7 +5874,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "#PWR059")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5981,7 +5890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f3df26-a25f-481f-b561-34a75b39a8d5")
-		(property "Reference" "D37"
+		(property "Reference" "D9"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -6033,7 +5942,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D37")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6049,7 +5958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a91630d-0523-4664-b514-2d19b4ed7e3a")
-		(property "Reference" "D19"
+		(property "Reference" "D54"
 			(at 234.95 48.26 0)
 			(effects
 				(font
@@ -6101,7 +6010,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D19")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c5dc5cf-70e3-4900-b104-5c6f4cccf513")
-		(property "Reference" "D46"
+		(property "Reference" "D18"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -6169,7 +6078,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D46")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -6185,7 +6094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e10ae6a-a089-41dc-a063-263aab69bb93")
-		(property "Reference" "D58"
+		(property "Reference" "D51"
 			(at 222.25 111.76 0)
 			(effects
 				(font
@@ -6237,7 +6146,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D58")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fc4a9c2-5899-4729-9714-7b030ad7260c")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 52.07 93.98 0)
 			(effects
 				(font
@@ -6302,7 +6211,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6318,7 +6227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "648cd62d-24de-4e65-93d3-3eb81e71a9d6")
-		(property "Reference" "D8"
+		(property "Reference" "D29"
 			(at 196.85 35.56 0)
 			(effects
 				(font
@@ -6370,7 +6279,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D8")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -6386,7 +6295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "660af555-9f45-4c5a-ae44-e943bc166ada")
-		(property "Reference" "D64"
+		(property "Reference" "D36"
 			(at 196.85 124.46 0)
 			(effects
 				(font
@@ -6438,7 +6347,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D64")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6804719e-3378-4da8-b9e1-a4fbfb55fe9d")
-		(property "Reference" "D56"
+		(property "Reference" "D35"
 			(at 196.85 111.76 0)
 			(effects
 				(font
@@ -6506,7 +6415,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D56")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -6522,7 +6431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef53441-5744-48fb-a052-99dc7739e3bf")
-		(property "Reference" "D43"
+		(property "Reference" "D57"
 			(at 234.95 86.36 0)
 			(effects
 				(font
@@ -6574,7 +6483,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D43")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72396c9b-2a30-408a-88c4-d46fe94c3cec")
-		(property "Reference" "D51"
+		(property "Reference" "D58"
 			(at 234.95 99.06 0)
 			(effects
 				(font
@@ -6642,7 +6551,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D51")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -6658,7 +6567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7677b3e4-59cd-4839-bd14-f816039c5411")
-		(property "Reference" "D63"
+		(property "Reference" "D28"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -6710,7 +6619,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D63")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -6726,7 +6635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c9eaa9-8c61-4253-ba33-557de39567df")
-		(property "Reference" "D62"
+		(property "Reference" "D20"
 			(at 171.45 124.46 0)
 			(effects
 				(font
@@ -6778,7 +6687,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D62")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6794,7 +6703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e3d4f4-c6cf-46d3-b7be-5d74420f6cef")
-		(property "Reference" "D65"
+		(property "Reference" "D44"
 			(at 209.55 124.46 0)
 			(effects
 				(font
@@ -6846,7 +6755,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D65")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -6862,7 +6771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a29784c-d923-4462-87c2-33c97866c503")
-		(property "Reference" "D6"
+		(property "Reference" "D13"
 			(at 171.45 35.56 0)
 			(effects
 				(font
@@ -6914,7 +6823,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D6")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6998,7 +6907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8234896d-08d3-4984-a2a5-5fe75d8ae916")
-		(property "Reference" "D36"
+		(property "Reference" "D64"
 			(at 247.65 73.66 0)
 			(effects
 				(font
@@ -7050,7 +6959,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D36")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -7066,7 +6975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89064e04-a30e-4d61-9497-04ccd0ef536a")
-		(property "Reference" "D29"
+		(property "Reference" "D8"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -7118,7 +7027,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D29")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7134,7 +7043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934a2f57-35bd-47b4-aa90-4b55647ba79d")
-		(property "Reference" "D34"
+		(property "Reference" "D48"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -7186,7 +7095,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D34")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -7202,7 +7111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96cf32d8-0977-41fd-918b-51090211a057")
-		(property "Reference" "D35"
+		(property "Reference" "D56"
 			(at 234.95 73.66 0)
 			(effects
 				(font
@@ -7254,7 +7163,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D35")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -7270,7 +7179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9741934a-6530-4011-90a2-e3e3d741921e")
-		(property "Reference" "D33"
+		(property "Reference" "D40"
 			(at 209.55 73.66 0)
 			(effects
 				(font
@@ -7322,7 +7231,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D33")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -7338,7 +7247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cfefd73-6dc8-4f1a-a900-9298d4e6f700")
-		(property "Reference" "D15"
+		(property "Reference" "D22"
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -7390,7 +7299,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D15")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -7406,7 +7315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a02190d6-2599-4d5e-be89-5171060d2e32")
-		(property "Reference" "D12"
+		(property "Reference" "D61"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -7458,7 +7367,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D12")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -7539,7 +7448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15732ba-ba65-4f67-85e1-236ca29930e2")
-		(property "Reference" "D66"
+		(property "Reference" "D52"
 			(at 222.25 124.46 0)
 			(effects
 				(font
@@ -7591,7 +7500,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D66")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -7607,7 +7516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1c3a62a-29c6-46ca-a3f6-56b7646ad5ca")
-		(property "Reference" "D16"
+		(property "Reference" "D30"
 			(at 196.85 48.26 0)
 			(effects
 				(font
@@ -7659,7 +7568,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D16")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -7674,7 +7583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46bee8f-1b6b-420b-bc64-6edd8a43e245")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 76.962 62.992 0)
 			(effects
 				(font
@@ -7830,7 +7739,7 @@
 		(instances
 			(project ""
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7846,7 +7755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b62353-41d1-460b-b0c7-880e02d2685e")
-		(property "Reference" "D13"
+		(property "Reference" "D6"
 			(at 158.75 48.26 0)
 			(effects
 				(font
@@ -7898,7 +7807,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D13")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7913,7 +7822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4c84bbc-038c-470a-bc50-c55332be4265")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 46.99 142.24 0)
 			(effects
 				(font
@@ -7963,7 +7872,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7979,7 +7888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5285334-916b-49ba-89e0-18f61f7fcf60")
-		(property "Reference" "D44"
+		(property "Reference" "D65"
 			(at 247.65 86.36 0)
 			(effects
 				(font
@@ -8031,7 +7940,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D44")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -8047,7 +7956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e8e978-eb2b-4b0f-a355-7dd0ae12534a")
-		(property "Reference" "D18"
+		(property "Reference" "D46"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -8099,7 +8008,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D18")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -8115,7 +8024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9a1a033-7520-4d04-a8fc-f062315a0fa8")
-		(property "Reference" "D42"
+		(property "Reference" "D49"
 			(at 222.25 86.36 0)
 			(effects
 				(font
@@ -8167,7 +8076,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D42")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abb2fc9c-6bf4-43f1-9aca-2192687e5125")
-		(property "Reference" "D17"
+		(property "Reference" "D38"
 			(at 209.55 48.26 0)
 			(effects
 				(font
@@ -8235,7 +8144,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D17")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -8455,7 +8364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ad85c8-1e87-4a2e-9c4b-1b4d2ff3a837")
-		(property "Reference" "D39"
+		(property "Reference" "D25"
 			(at 184.15 86.36 0)
 			(effects
 				(font
@@ -8507,7 +8416,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D39")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -8523,7 +8432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baf6d64d-cd43-4a62-8f18-e508047943e2")
-		(property "Reference" "D57"
+		(property "Reference" "D43"
 			(at 209.55 111.76 0)
 			(effects
 				(font
@@ -8575,7 +8484,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D57")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -8591,7 +8500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c063f579-8a5e-4cd2-9e30-c02c863c6780")
-		(property "Reference" "D48"
+		(property "Reference" "D34"
 			(at 196.85 99.06 0)
 			(effects
 				(font
@@ -8643,7 +8552,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D48")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -8659,7 +8568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c238a942-a78b-44c1-bffe-b0083c4a3f88")
-		(property "Reference" "D49"
+		(property "Reference" "D42"
 			(at 209.55 99.06 0)
 			(effects
 				(font
@@ -8711,7 +8620,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D49")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -8727,7 +8636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca8194b9-6477-4f05-9a2d-c46e457347f1")
-		(property "Reference" "D38"
+		(property "Reference" "D17"
 			(at 171.45 86.36 0)
 			(effects
 				(font
@@ -8779,7 +8688,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D38")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -8795,7 +8704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd6e0713-9c29-45a7-b9f5-80920d530dbd")
-		(property "Reference" "D45"
+		(property "Reference" "D10"
 			(at 158.75 99.06 0)
 			(effects
 				(font
@@ -8847,7 +8756,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D45")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -8863,7 +8772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0d0a59-5dea-45e7-b29b-c07437b969cf")
-		(property "Reference" "D30"
+		(property "Reference" "D16"
 			(at 171.45 73.66 0)
 			(effects
 				(font
@@ -8915,7 +8824,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D30")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -8999,7 +8908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce9305d3-2add-4cd7-84d1-6173fa9ecf27")
-		(property "Reference" "D21"
+		(property "Reference" "D7"
 			(at 158.75 60.96 0)
 			(effects
 				(font
@@ -9051,7 +8960,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D21")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9067,7 +8976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cec5ede2-9cf1-499b-856b-60da62b793b3")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR062"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -9117,7 +9026,7 @@
 		(instances
 			(project ""
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "#PWR054")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9133,7 +9042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3a5b40e-bedb-4b68-8548-36cfffd357e5")
-		(property "Reference" "D10"
+		(property "Reference" "D45"
 			(at 222.25 35.56 0)
 			(effects
 				(font
@@ -9185,7 +9094,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D10")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -9337,7 +9246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8473e5e-8da2-499a-8534-c34c092c3370")
-		(property "Reference" "D27"
+		(property "Reference" "D55"
 			(at 234.95 60.96 0)
 			(effects
 				(font
@@ -9389,7 +9298,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D27")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -9405,7 +9314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d94eb0b2-6aae-4757-931f-73f4cd136d19")
-		(property "Reference" "D54"
+		(property "Reference" "D19"
 			(at 171.45 111.76 0)
 			(effects
 				(font
@@ -9457,7 +9366,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D54")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -9473,7 +9382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f2cdeb-3f32-4eb8-8b03-c33d2fc9ff3e")
-		(property "Reference" "D20"
+		(property "Reference" "D62"
 			(at 247.65 48.26 0)
 			(effects
 				(font
@@ -9525,7 +9434,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D20")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0ef6168-a443-46fc-9dcd-cf1cdcfac1e9")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR061"
 			(at 62.23 62.23 0)
 			(effects
 				(font
@@ -9590,7 +9499,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "#PWR056")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9676,7 +9585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25f6d57-5c68-41e0-9eb3-c5d66a11e212")
-		(property "Reference" "D55"
+		(property "Reference" "D27"
 			(at 184.15 111.76 0)
 			(effects
 				(font
@@ -9728,7 +9637,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D55")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -9744,7 +9653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4107398-6baf-4a43-9810-cddfaccfe5ec")
-		(property "Reference" "D11"
+		(property "Reference" "D53"
 			(at 234.95 35.56 0)
 			(effects
 				(font
@@ -9796,78 +9705,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 46.99 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e44ccb13-0129-43d9-ba5a-d9524dc7c210")
-		(property "Reference" "C17"
-			(at 50.8 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 50.8 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 46.0248 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 46.99 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "007d592e-54e5-40ba-8d7d-74813e75e96c")
-		)
-		(pin "1"
-			(uuid "b5b2f0eb-a722-4648-a85c-c362d7e0840d")
-		)
-		(instances
-			(project "microcouple"
-				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "C17")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -9883,7 +9721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e75ff2f1-c166-41a1-ac87-0c7d3d109054")
-		(property "Reference" "D53"
+		(property "Reference" "D11"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -9935,7 +9773,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D53")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9951,7 +9789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e987bc-be7c-452c-a850-0b9294f520ba")
-		(property "Reference" "D61"
+		(property "Reference" "D12"
 			(at 158.75 124.46 0)
 			(effects
 				(font
@@ -10003,7 +9841,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D61")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -10019,7 +9857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f267d437-4a39-4f9b-a0c2-2d8a6cf4df9e")
-		(property "Reference" "D40"
+		(property "Reference" "D33"
 			(at 196.85 86.36 0)
 			(effects
 				(font
@@ -10071,7 +9909,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D40")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -10087,7 +9925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdafc43e-f471-4a21-9d31-01af303d107c")
-		(property "Reference" "D26"
+		(property "Reference" "D47"
 			(at 222.25 60.96 0)
 			(effects
 				(font
@@ -10139,7 +9977,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D26")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -10155,7 +9993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8953f1-3ac4-4609-9e11-f55701bde157")
-		(property "Reference" "D9"
+		(property "Reference" "D37"
 			(at 209.55 35.56 0)
 			(effects
 				(font
@@ -10207,7 +10045,7 @@
 		(instances
 			(project "microcouple"
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/37b03939-0863-46d0-b25f-fe87b36782f5"
-					(reference "D9")
+					(reference "D37")
 					(unit 1)
 				)
 			)
