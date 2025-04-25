@@ -1770,7 +1770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GS_SMD:0201_0603Metric"
 			(at 62.5348 72.39 0)
 			(effects
 				(font
@@ -1839,7 +1839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "GS_SMD:0201_0603Metric"
 			(at 122.936 75.184 90)
 			(effects
 				(font

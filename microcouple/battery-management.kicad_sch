@@ -2840,7 +2840,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "GS_Optoelectronics:LED_0201_0603Metric"
 			(at 110.49 49.53 0)
 			(effects
 				(font
@@ -3185,7 +3185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "GS_SMD:0201_0603Metric"
 			(at 109.474 41.656 90)
 			(effects
 				(font
@@ -3254,7 +3254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "GS_SMD:0201_0603Metric"
 			(at 109.474 69.596 90)
 			(effects
 				(font
@@ -3324,7 +3324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "GS_SMD:0402_1005Metric"
 			(at 54.9148 57.15 0)
 			(effects
 				(font
@@ -3463,7 +3463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "GS_SMD:0201_0603Metric"
 			(at 115.8748 134.62 0)
 			(effects
 				(font
@@ -4000,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "GS_SMD:0201_0603Metric"
 			(at 31.496 124.714 90)
 			(effects
 				(font
@@ -4135,7 +4135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "GS_Optoelectronics:LED_0201_0603Metric"
 			(at 110.49 62.23 0)
 			(effects
 				(font
@@ -4271,7 +4271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "GS_SMD:0402_1005Metric"
 			(at 157.7848 134.62 0)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "GS_SMD:0402_1005Metric"
 			(at 93.6752 134.62 0)
 			(effects
 				(font
@@ -4494,7 +4494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "GS_SMD:0402_1005Metric"
 			(at 37.1348 57.15 0)
 			(effects
 				(font
@@ -4758,7 +4758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "GS_SMD:0201_0603Metric"
 			(at 67.056 66.294 90)
 			(effects
 				(font
