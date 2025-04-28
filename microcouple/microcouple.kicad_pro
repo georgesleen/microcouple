@@ -555,7 +555,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../production/",
-      "pos_files": "",
+      "pos_files": "../production/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
