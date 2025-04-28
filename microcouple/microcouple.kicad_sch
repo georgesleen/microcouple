@@ -12400,14 +12400,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "474b140e-dd46-4165-af78-ee9949e2e31f")
 		)
