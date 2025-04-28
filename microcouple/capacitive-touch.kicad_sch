@@ -269,7 +269,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Capacitor_0201:C_0201_100nF"
+		(symbol "GS_Capacitor_0402:C_0402_100nF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -297,8 +297,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "GS_Capacitors:C_0201_0603Metric"
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "GS_Capacitors:C_0402_1005Metric"
+				(at 0 22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -306,8 +306,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0201X5R104M250ZT_C18164587.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0402X5R104K160AT_C344189.pdf"
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -315,8 +315,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+			(property "Description" "100nF 10% Unpolarized Capacitor, 16V Max Voltage, X5R"
+				(at 0 15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -325,7 +325,7 @@
 				)
 			)
 			(property "Manufacturer" "CCTC"
-				(at 0 0 0)
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -333,8 +333,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "TCC0201X5R104M250ZT"
-				(at 0 0 0)
+			(property "Mfr. Part #" "TCC0402X5R104K160AT"
+				(at 0 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -342,8 +342,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 0 0)
+			(property "LCSC ID" "C344189"
+				(at 0 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -351,8 +351,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C18164587"
-				(at 0 0 0)
+			(property "Package" "0402"
+				(at 0 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -378,7 +378,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0201_100nF_0_1"
+			(symbol "C_0402_100nF_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -404,7 +404,7 @@
 					)
 				)
 			)
-			(symbol "C_0201_100nF_1_1"
+			(symbol "C_0402_100nF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1003,7 +1003,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Resistor_0201:R_0201_100k"
+		(symbol "GS_Resistor_0402:R_0402_100k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1029,8 +1029,8 @@
 					)
 				)
 			)
-			(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-				(at 1.016 -0.254 90)
+			(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+				(at 0 22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1038,8 +1038,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0201FR-07100KL_C106224.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205131800_VO-SCR0402J100K_C3017514.pdf"
+				(at 0 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1047,8 +1047,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
+			(property "Description" "100k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+				(at 0.254 25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1056,8 +1056,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
+			(property "Manufacturer" "VO"
+				(at 0 27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1065,8 +1065,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "RC0201FR-07100KL"
-				(at 0 0 0)
+			(property "Mfr. Part #" "SCR0402J100K"
+				(at 0 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1074,8 +1074,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C106224"
-				(at 0 0 0)
+			(property "LCSC ID" "C3017514"
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1083,8 +1083,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 0 0)
+			(property "Package" "0402"
+				(at 0 29.718 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1110,7 +1110,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0201_100k_0_1"
+			(symbol "R_0402_100k_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -1172,7 +1172,7 @@
 					)
 				)
 			)
-			(symbol "R_0201_100k_1_1"
+			(symbol "R_0402_100k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1212,7 +1212,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Resistor_0201:R_0201_10k"
+		(symbol "GS_Resistor_0402:R_0402_10k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1238,8 +1238,8 @@
 					)
 				)
 			)
-			(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-				(at 1.016 -0.254 90)
+			(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+				(at 0 22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1247,8 +1247,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121613_FH--Guangdong-Fenghua-Advanced-Tech-RC-01W103JT_C304504.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_RALEC-RTT02103JTH_C102759.pdf"
+				(at 0 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1256,8 +1256,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
+			(property "Description" "10k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+				(at 0.254 25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1265,8 +1265,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-				(at 0 0 0)
+			(property "Manufacturer" "RALEC"
+				(at 0 27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1274,8 +1274,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "RC-01W103JT"
-				(at 0 0 0)
+			(property "Mfr. Part #" "RTT02103JTH"
+				(at 0 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1283,8 +1283,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C304504"
-				(at 0 0 0)
+			(property "LCSC ID" "C102759"
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1292,8 +1292,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 0 0)
+			(property "Package" "0402"
+				(at 0 29.718 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1319,7 +1319,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0201_10k_0_1"
+			(symbol "R_0402_10k_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -1381,7 +1381,7 @@
 					)
 				)
 			)
-			(symbol "R_0201_10k_1_1"
+			(symbol "R_0402_10k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4899,7 +4899,43 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAKhM9odPegAABQAAAAAAAADw+9RGLmQAAAj81EYuZAAACPzURi5kAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAA=="
+			"AAAAAAAAAAAAADQAAAB1AAAAVgAAAHkAAAA1AAAAZgAAAEwAAABTAAAAOAAAAHIAAAAvAAAAKwAA"
+			"AHIAAABMAAAAdQAAAFgAAABWAAAAOAAAADYAAABwAAAAcAAAAE4AAAA1AAAAagAAADkAAAArAAAA"
+			"LwAAAHcAAABNAAAAaAAAAHYAAABIAAAAdgAAAEgAAAA3AAAAcwAAAEwAAABDAAAAbwAAAHYAAABm"
+			"AAAASAAAAGoAAABnAAAAOAAAAE0AAABDAAAAQQAAAFMAAABBAAAAbQAAAE8AAABpAAAAMgAAAFgA"
+			"AAAzAAAAegAAACsAAABKAAAAUQAAAEIAAABjAAAAdgAAAFgAAAB3AAAAMQAAAE4AAABDAAAAVAAA"
+			"AHMAAAA1AAAAZgAAAE4AAABNAAAAbQAAAHcAAABXAAAAcgAAAHkAAABJAAAAcQAAAC8AAABYAAAA"
+			"OAAAAFAAAAAxAAAAYQAAADkAAABZAAAARAAAAHcAAABKAAAANQAAAGQAAABlAAAAOQAAAHAAAABF"
+			"AAAAdAAAAG0AAABHAAAATQAAAHIAAABWAAAAaQAAACsAAABRAAAAcQAAAC8AAABUAAAANwAAADkA"
+			"AAA5AAAAMwAAAG8AAABLAAAAaQAAAHcAAABhAAAAUAAAAGoAAABRAAAANAAAAFcAAABHAAAAdAAA"
+			"AHcAAABnAAAAQgAAAGcAAAA5AAAAcQAAAGUAAABmAAAATgAAADIAAAA3AAAAVQAAACsAAABIAAAA"
+			"bgAAAEcAAAA4AAAANAAAAEsAAABDAAAAdwAAAGsAAABFAAAARAAAAEIAAAA4AAAAVgAAAEUAAAB4"
+			"AAAAUQAAAEQAAABBAAAAbwAAAEEAAABHAAAARAAAAFAAAAB2AAAAcAAAAGcAAABFAAAAcgAAAGQA"
+			"AABxAAAANQAAADMAAAB3AAAAeAAAAHAAAAAyAAAAdQAAAG4AAABiAAAAZwAAAEQAAABRAAAASQAA"
+			"AGIAAABiAAAARAAAAHUAAABEAAAASAAAAGoAAABHAAAARwAAAE8AAABOAAAALwAAAEIAAAB0AAAA"
+			"OQAAAE0AAAB1AAAAdgAAAFQAAABpAAAAdgAAAEsAAABLAAAANwAAAFYAAAB1AAAAMgAAAGkAAAA0"
+			"AAAATAAAADQAAAB6AAAAOQAAAHAAAAAvAAAAQQAAAEUAAABDAAAAUwAAAEoAAABVAAAAbQAAAFMA"
+			"AABHAAAATAAAAEIAAAB0AAAAVwAAADcAAABjAAAAagAAAGgAAABQAAAANQAAAGUAAAA5AAAAWAAA"
+			"AGQAAABSAAAAWQAAAGQAAABIAAAAbgAAAG4AAAAzAAAAMwAAAE8AAABoAAAAMwAAAHIAAAB0AAAA"
+			"bQAAAG4AAABwAAAASwAAAGkAAABzAAAAVgAAAGkAAAAvAAAAUgAAADkAAABTAAAASgAAAFAAAAAv"
+			"AAAAMQAAACsAAABNAAAARAAAAE4AAABSAAAAWQAAAFAAAABCAAAAMAAAAEsAAABDAAAAQgAAADMA"
+			"AAB3AAAAOQAAAEwAAABmAAAAbAAAAGkAAAAxAAAAYQAAAGwAAABYAAAAQwAAAGcAAABQAAAANgAA"
+			"AG4AAAB6AAAANQAAAHoAAABDAAAARwAAAE8AAAB0AAAAMAAAAE8AAABwAAAAMQAAAE8AAAB4AAAA"
+			"MQAAAGwAAABpAAAAdgAAAEgAAABJAAAAYwAAAEEAAABGAAAAQgAAAEsAAABQAAAALwAAAHAAAABv"
+			"AAAAVQAAAG0AAABCAAAAUQAAAFMAAAB5AAAAYwAAAG4AAABwAAAAMwAAAG4AAABmAAAAegAAAEwA"
+			"AAA5AAAAOAAAACsAAABZAAAAcgAAAEYAAABiAAAARAAAAFgAAABvAAAARAAAAFoAAAA5AAAAOQAA"
+			"ACsAAABsAAAAbAAAAGQAAAAzAAAANwAAAHEAAABlAAAAWAAAAHAAAAA1AAAAegAAADUAAABuAAAA"
+			"eAAAADEAAAArAAAAdgAAAFQAAABwAAAAagAAAEwAAABTAAAATQAAAGoAAABHAAAAZgAAAHAAAABT"
+			"AAAAMwAAADkAAABZAAAANgAAAHUAAABuAAAAcAAAADIAAABhAAAAaAAAAHgAAAB3AAAAdwAAAFgA"
+			"AAB6AAAANQAAACsAAAAvAAAAYQAAAHQAAABRAAAAcwAAAFkAAABHAAAAUAAAAFMAAAA2AAAARAAA"
+			"AHoAAAA3AAAAOAAAAEkAAABDAAAAbwAAADYAAAB5AAAAcgAAACsAAABSAAAAdgAAADYAAABPAAAA"
+			"VAAAAG8AAAA2AAAAdQAAAHIAAABpAAAANgAAAGUAAABYAAAASgAAAHcAAABkAAAASAAAAEMAAABJ"
+			"AAAASQAAAEkAAABDAAAAdgAAAHoAAAArAAAAKwAAACsAAAAvAAAAcgAAADEAAAA2AAAAKwAAAC8A"
+			"AABkAAAAKwAAAGYAAABlAAAAbwAAAFkAAABPAAAASAAAAGcAAABFAAAARwAAAGwAAAB5AAAAUQAA"
+			"AFMAAAAyAAAAUAAAAEwAAABZAAAAQQAAAGgAAABKAAAAQQAAAGEAAABuAAAAagAAAFcAAABtAAAA"
+			"VAAAAEoAAAB2AAAAUwAAAE8AAAByAAAATAAAADEAAABrAAAAeQAAAGQAAABQAAAAcgAAAEYAAABi"
+			"AAAAcgAAAGsAAABpAAAAVgAAAEwAAABuAAAASgAAAHkAAABjAAAAVwAAAGsAAABlAAAAMQAAAG4A"
+			"AABqAAAANQ=="
 		)
 	)
 	(image
@@ -6725,7 +6761,43 @@
 			"CnAKKGQAAAAAAAAAAAAAAAAAAAAAAACIgpRILmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAC4gpRILmQAAAAAAAAAAAAAAAAAAC5kAACgjlw+LmQAAAAAAAAAAAAAAAAA"
 			"AAAAAABBCgAAAAAAALCqOkguZAAAQLK6PS5kAAAAAAAAAAAAAAAAAAAAAAAAKgAAAAAAAADBAgAA"
-			"AAAAAFBSlEguZAAAEMO6PS5kAAAsa///TFkAAGhN//9MWQAAaE3//4g7AACRAgAAAAAAANB5lA=="
+			"AAAAAFBSlEguZAAAEMO6PS5kAAAsa///TFkAAGhN//9MWQAAaE3//4g7AACRAgAAAAAAANB5lABO"
+			"AAAALwAAADkAAABEAAAAaAAAAFgAAABrAAAAdQAAAGYAAABhAAAANwAAAHoAAABkAAAAOQAAAHQA"
+			"AABBAAAAcQAAAHIAAAB0AAAAeQAAAEsAAAB0AAAAaQAAAGMAAAAvAAAATgAAADMAAABVAAAARQAA"
+			"AEYAAAB0AAAAcgAAAHoAAABUAAAAawAAACsAAABxAAAATQAAAC8AAAArAAAAcQAAAE0AAAAvAAAA"
+			"LwAAAE0AAABNAAAALwAAAFIAAABNAAAALwAAAGwAAABRAAAAcAAAAEIAAABqAAAAKwAAAC8AAAB1"
+			"AAAALwAAACsAAAA3AAAAcwAAAHIAAABYAAAAVgAAAGYAAABRAAAAYwAAADcAAABtAAAAUQAAAFYA"
+			"AAA4AAAARwAAAGEAAABzAAAAcAAAAFoAAABPAAAAcAAAAFYAAABDAAAAVAAAAGcAAABiAAAAdwAA"
+			"AGkAAABDAAAAcwAAAC8AAABsAAAATwAAAGoAAABJAAAAWgAAAG0AAABzAAAAdQAAAEYAAABJAAAA"
+			"QQAAAGkAAABDAAAASQAAAEEAAABoAAAAeQAAADYAAABsAAAARAAAAEkAAABoAAAAUwAAAEEAAABJ"
+			"AAAAZwAAAGkAAABBAAAASQAAAGMAAAB1AAAAcAAAAFEAAAB5AAAASQAAAFUAAABnAAAAQwAAAEkA"
+			"AABJAAAAZwAAAEMAAABIAAAATAAAAHEAAABVAAAATQAAAGkAAABGAAAASQAAAEEAAABpAAAAQwAA"
+			"AEkAAABBAAAAaAAAAHkAAAA2AAAAbAAAAEQAAABJAAAAOQAAAFIAAABMAAAAaAAAAGIAAAB6AAAA"
+			"YgAAAFYAAABOAAAAZAAAAFQAAAB1AAAALwAAAE4AAABtAAAAaQAAAGMAAAB2AAAARQAAAGIAAABY"
+			"AAAAVgAAADcAAAB3AAAATwAAADYAAAB4AAAATgAAAHgAAABnAAAAWgAAAGoAAABrAAAANwAAAFUA"
+			"AABuAAAAbAAAAEYAAABFAAAATAAAAG4AAAA2AAAAWQAAAEcAAABqAAAATQAAAGIAAAByAAAAcQAA"
+			"AFQAAABQAAAATAAAAEwAAABuAAAASwAAADYAAABkAAAARwAAAGsAAABoAAAAMgAAAEcAAABkAAAA"
+			"cgAAAGEAAABhAAAASgAAAHIAAABqAAAAWAAAAFIAAABUAAAAaQAAADcAAAAwAAAAdgAAAHQAAABD"
+			"AAAAagAAAHIAAAB4AAAAYQAAAC8AAABVAAAAdQAAAEwAAABOAAAAMgAAAFQAAAAxAAAAVwAAAGgA"
+			"AABtAAAAMQAAAHUAAABkAAAAMwAAAHIAAABpAAAAawAAAEYAAABiAAAANgAAAFcAAAB4AAAAbAAA"
+			"AHYAAAByAAAAdQAAAEsAAABCAAAAWQAAAFkAAAByAAAAMgAAAGEAAABuAAAASQAAAHgAAABlAAAA"
+			"ZAAAADcAAABTAAAAeQAAAFQAAABjAAAAWQAAAEcAAABZAAAAeAAAAFAAAABYAAAAMgAAAFQAAABl"
+			"AAAAZQAAAFUAAAB2AAAAUQAAAFMAAABTAAAAYwAAACsAAABIAAAANQAAADYAAABqAAAAbgAAAHUA"
+			"AABwAAAAeAAAAE8AAABDAAAAQwAAAG8AAABBAAAAZwAAAEQAAAByAAAAbgAAAE0AAABKAAAAWQAA"
+			"AHUAAABrAAAAeAAAAGQAAABPAAAAOAAAAEwAAABOAAAARwAAAHgAAAA0AAAATAAAADIAAAAvAAAA"
+			"QwAAAHMAAABTAAAAUgAAADUAAABwAAAAMwAAADEAAAB3AAAAUQAAAGoAAAAyAAAAOQAAAG8AAAB6"
+			"AAAAbQAAAHQAAAB5AAAAdQAAAEsAAABPAAAAZwAAAFMAAAA4AAAAZAAAAFUAAABrAAAAaAAAAFYA"
+			"AABxAAAAdAAAAEkAAABlAAAAbQAAAHMAAABjAAAANAAAAEUAAABjAAAAbwAAAHQAAABJAAAANwAA"
+			"AEYAAABwAAAARwAAAHoAAABwAAAAOAAAAGkAAAByAAAAZQAAAHMAAAAyAAAAVgAAAGMAAABMAAAA"
+			"aQAAAEwAAABMAAAASAAAADUAAABRAAAAUgAAAFIAAABiAAAAKwAAAFQAAAAxAAAAMAAAAGMAAABk"
+			"AAAASQAAAHoAAABJAAAANwAAAEsAAAAzAAAAWgAAAFoAAABUAAAATQAAAG0AAAAzAAAAZgAAAFYA"
+			"AAA3AAAAQgAAAC8AAABxAAAASQAAADUAAABIAAAAMAAAAFgAAABkAAAAWAAAAFkAAAA1AAAAUgAA"
+			"AFUAAAA2AAAAZgAAAHMAAAB0AAAARAAAAG4AAAA4AAAARQAAAG4AAAAwAAAATgAAAGMAAAAvAAAA"
+			"WQAAAEQAAABSAAAASQAAAEgAAABUAAAAVQAAADcAAABIAAAASQAAAHAAAAA1AAAATwAAAFUAAABW"
+			"AAAAdQAAAGEAAAA3AAAAOQAAADYAAABxAAAASAAAAGkAAABiAAAAMwAAADMAAABSAAAAcwAAAGMA"
+			"AABCAAAAZwAAAEEAAABBAAAAdQAAAGkAAABZAAAAbgAAADcAAAA0AAAAUwAAAEcAAABuAAAAUgAA"
+			"AHEAAABlAAAAbQAAAHIAAABZAAAAUgAAADUAAABWAAAAYQAAAHIAAABaAAAAcgAAAHkAAABPAAAA"
+			"ZwAAAGEAAABSAAAAdQAAAGQAAAByAAAAcAAAAHYAAABlAAAAZQAAAGgAAABxAAAAVQAAAEYAAA=="
 		)
 	)
 	(label "CT_RESET"
@@ -7104,7 +7176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Capacitor_0201:C_0201_100nF")
+		(lib_id "GS_Capacitor_0402:C_0402_100nF")
 		(at 107.95 58.42 0)
 		(mirror y)
 		(unit 1)
@@ -7132,8 +7204,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GS_Capacitors:C_0201_0603Metric"
-			(at 106.9848 62.23 0)
+		(property "Footprint" "GS_Capacitors:C_0402_1005Metric"
+			(at 107.95 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,8 +7213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0201X5R104M250ZT_C18164587.pdf"
-			(at 107.95 58.42 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0402X5R104K160AT_C344189.pdf"
+			(at 107.95 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,8 +7222,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 58.42 0)
+		(property "Description" "100nF 10% Unpolarized Capacitor, 16V Max Voltage, X5R"
+			(at 107.95 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7232,7 @@
 			)
 		)
 		(property "Manufacturer" "CCTC"
-			(at 107.95 58.42 0)
+			(at 107.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,8 +7240,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 107.95 58.42 0)
+		(property "Package" "0402"
+			(at 107.95 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,8 +7249,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C18164587"
-			(at 107.95 58.42 0)
+		(property "LCSC ID" "C344189"
+			(at 107.95 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,8 +7258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "TCC0201X5R104M250ZT"
-			(at 107.95 58.42 0)
+		(property "Mfr. Part #" "TCC0402X5R104K160AT"
+			(at 107.95 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Capacitor_0201:C_0201_100nF")
+		(lib_id "GS_Capacitor_0402:C_0402_100nF")
 		(at 72.39 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7844,8 +7916,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GS_Capacitors:C_0201_0603Metric"
-			(at 73.3552 92.71 0)
+		(property "Footprint" "GS_Capacitors:C_0402_1005Metric"
+			(at 72.39 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,8 +7925,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0201X5R104M250ZT_C18164587.pdf"
-			(at 72.39 88.9 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0402X5R104K160AT_C344189.pdf"
+			(at 72.39 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,8 +7934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 72.39 88.9 0)
+		(property "Description" "100nF 10% Unpolarized Capacitor, 16V Max Voltage, X5R"
+			(at 72.39 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7944,7 @@
 			)
 		)
 		(property "Manufacturer" "CCTC"
-			(at 72.39 88.9 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,8 +7952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 72.39 88.9 0)
+		(property "Package" "0402"
+			(at 72.39 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,8 +7961,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C18164587"
-			(at 72.39 88.9 0)
+		(property "LCSC ID" "C344189"
+			(at 72.39 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,8 +7970,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "TCC0201X5R104M250ZT"
-			(at 72.39 88.9 0)
+		(property "Mfr. Part #" "TCC0402X5R104K160AT"
+			(at 72.39 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +8069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Resistor_0201:R_0201_100k")
+		(lib_id "GS_Resistor_0402:R_0402_100k")
 		(at 83.82 88.9 0)
 		(mirror y)
 		(unit 1)
@@ -8025,8 +8097,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-			(at 82.804 89.154 90)
+		(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+			(at 83.82 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,8 +8106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0201FR-07100KL_C106224.pdf"
-			(at 83.82 88.9 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205131800_VO-SCR0402J100K_C3017514.pdf"
+			(at 83.82 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,8 +8115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 83.82 88.9 0)
+		(property "Description" "100k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+			(at 83.566 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,8 +8124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 83.82 88.9 0)
+		(property "Manufacturer" "VO"
+			(at 83.82 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,8 +8133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "RC0201FR-07100KL"
-			(at 83.82 88.9 0)
+		(property "Mfr. Part #" "SCR0402J100K"
+			(at 83.82 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,8 +8142,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C106224"
-			(at 83.82 88.9 0)
+		(property "LCSC ID" "C3017514"
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,8 +8151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 83.82 88.9 0)
+		(property "Package" "0402"
+			(at 83.82 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8272,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Resistor_0201:R_0201_10k")
+		(lib_id "GS_Resistor_0402:R_0402_10k")
 		(at 72.39 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8227,8 +8299,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-			(at 73.406 67.564 90)
+		(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+			(at 72.39 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,8 +8308,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121613_FH--Guangdong-Fenghua-Advanced-Tech-RC-01W103JT_C304504.pdf"
-			(at 72.39 67.31 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_RALEC-RTT02103JTH_C102759.pdf"
+			(at 72.39 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,8 +8317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 72.39 67.31 0)
+		(property "Description" "10k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+			(at 72.644 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,8 +8326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 72.39 67.31 0)
+		(property "Manufacturer" "RALEC"
+			(at 72.39 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,8 +8335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "RC-01W103JT"
-			(at 72.39 67.31 0)
+		(property "Mfr. Part #" "RTT02103JTH"
+			(at 72.39 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,8 +8344,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C304504"
-			(at 72.39 67.31 0)
+		(property "LCSC ID" "C102759"
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,8 +8353,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 72.39 67.31 0)
+		(property "Package" "0402"
+			(at 72.39 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)

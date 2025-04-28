@@ -11,7 +11,7 @@
 		(company "George Sleen")
 	)
 	(lib_symbols
-		(symbol "GS_Capacitor_0201:C_0201_100nF"
+		(symbol "GS_Capacitor_0402:C_0402_100nF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -39,8 +39,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "GS_Capacitors:C_0201_0603Metric"
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "GS_Capacitors:C_0402_1005Metric"
+				(at 0 22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,8 +48,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0201X5R104M250ZT_C18164587.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0402X5R104K160AT_C344189.pdf"
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -57,8 +57,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+			(property "Description" "100nF 10% Unpolarized Capacitor, 16V Max Voltage, X5R"
+				(at 0 15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,7 +67,7 @@
 				)
 			)
 			(property "Manufacturer" "CCTC"
-				(at 0 0 0)
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -75,8 +75,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "TCC0201X5R104M250ZT"
-				(at 0 0 0)
+			(property "Mfr. Part #" "TCC0402X5R104K160AT"
+				(at 0 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -84,8 +84,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 0 0)
+			(property "LCSC ID" "C344189"
+				(at 0 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -93,8 +93,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C18164587"
-				(at 0 0 0)
+			(property "Package" "0402"
+				(at 0 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -120,7 +120,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0201_100nF_0_1"
+			(symbol "C_0402_100nF_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -146,7 +146,7 @@
 					)
 				)
 			)
-			(symbol "C_0201_100nF_1_1"
+			(symbol "C_0402_100nF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -215,7 +215,7 @@
 				)
 			)
 			(property "Footprint" "GS_Capacitors:C_0402_1005Metric"
-				(at 0.9652 -3.81 0)
+				(at 0 22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -224,7 +224,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121858_Murata-Electronics-GRM155R60J475ME87D_C76996.pdf"
-				(at 0 0 0)
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -232,8 +232,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+			(property "Description" "4.7uF 20% Unpolarized capacitor, 6.3V Max Voltage, X5R"
+				(at 0 15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -242,7 +242,7 @@
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
-				(at 0 0 0)
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -251,7 +251,7 @@
 				)
 			)
 			(property "Mfr. Part #" "GRM155R60J475ME87D"
-				(at 0 0 0)
+				(at 0 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -260,7 +260,7 @@
 				)
 			)
 			(property "LCSC ID" "C76996"
-				(at 0 0 0)
+				(at 0 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -269,7 +269,7 @@
 				)
 			)
 			(property "Package" "0402"
-				(at 0 0 0)
+				(at 0 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -745,7 +745,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Optoelectronic:LED_0201_Green"
+		(symbol "GS_Optoelectronic:LED_0402_Green"
 			(pin_numbers
 				(hide yes)
 			)
@@ -765,15 +765,15 @@
 				)
 			)
 			(property "Value" "Green"
-				(at 0 -2.54 0)
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "GS_Optoelectronics:LED_0201_0603Metric"
-				(at 0 0 0)
+			(property "Footprint" "GS_Optoelectronics:LED_0402_1005Metric"
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -781,8 +781,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-0201UGC_C3646922.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-1005UGC_C965793.pdf"
+				(at 0 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -791,7 +791,7 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
-				(at 0 0 0)
+				(at 0 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -800,7 +800,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
+				(at 0 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -809,7 +809,7 @@
 				)
 			)
 			(property "Manufacturer" "XINGLIGHT"
-				(at 0 0 0)
+				(at 0 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -817,8 +817,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "XL-0201UGC"
-				(at 0 0 0)
+			(property "Mfr. Part #" "XL-1005UGC"
+				(at 0 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -826,8 +826,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C3646922"
-				(at 0 0 0)
+			(property "LCSC ID" "C965793"
+				(at 0 18.796 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -835,8 +835,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 0 0)
+			(property "Package" "0402"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -862,7 +862,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0201_Green_0_1"
+			(symbol "LED_0402_Green_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -924,7 +924,7 @@
 					)
 				)
 			)
-			(symbol "LED_0201_Green_1_1"
+			(symbol "LED_0402_Green_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -964,7 +964,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Optoelectronic:LED_0201_Red"
+		(symbol "GS_Optoelectronic:LED_0402_Red"
 			(pin_numbers
 				(hide yes)
 			)
@@ -984,14 +984,14 @@
 				)
 			)
 			(property "Value" "Red"
-				(at 0 -2.54 0)
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "GS_Optoelectronics:LED_0201_0603Metric"
+			(property "Footprint" "GS_Optoelectronics:LED_0402_1005Metric"
 				(at 0 11.684 0)
 				(effects
 					(font
@@ -1000,8 +1000,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-0201SURC_C3646923.pdf"
-				(at 0 13.716 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121310_XINGLIGHT-XL-1005SURC_C965790.pdf"
+				(at 0 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1010,7 +1010,7 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
-				(at 0 15.748 0)
+				(at 0 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
-				(at -1.27 22.352 0)
+				(at 0 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1028,7 +1028,7 @@
 				)
 			)
 			(property "Manufacturer" "XINGLIGHT"
-				(at 0 20.828 0)
+				(at 0 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1036,16 +1036,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "XL-0201SURC"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC ID" "C3646923"
+			(property "Mfr. Part #" "XL-1005SURC"
 				(at 0 17.272 0)
 				(effects
 					(font
@@ -1054,8 +1045,17 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 23.876 0)
+			(property "LCSC ID" "C965790"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0402"
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1081,7 +1081,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0201_Red_0_1"
+			(symbol "LED_0402_Red_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -1143,7 +1143,7 @@
 					)
 				)
 			)
-			(symbol "LED_0201_Red_1_1"
+			(symbol "LED_0402_Red_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1624,7 +1624,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Resistor_0201:R_0201_1.5k"
+		(symbol "GS_Resistor_0402:R_0402_1.5k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1650,8 +1650,8 @@
 					)
 				)
 			)
-			(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-				(at 0 19.05 0)
+			(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+				(at 0 22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1659,8 +1659,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMJ0152TEE_C270328.pdf"
-				(at 0 17.018 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0402J152TS_C2929900.pdf"
+				(at 0 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1668,8 +1668,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 21.082 0)
+			(property "Description" "1.5k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+				(at 0.254 26.924 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1677,8 +1677,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 23.114 0)
+			(property "Manufacturer" "FOJAN"
+				(at 0 28.956 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1686,8 +1686,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "0201WMJ0152TEE"
-				(at 0 25.146 0)
+			(property "Mfr. Part #" "FRC0402J152TS"
+				(at 0 24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1695,8 +1695,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C270328"
-				(at 0 26.924 0)
+			(property "LCSC ID" "C2929900"
+				(at 0 17.526 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1704,8 +1704,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 28.702 0)
+			(property "Package" "0402"
+				(at 0 30.988 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0201_1.5k_0_1"
+			(symbol "R_0402_1.5k_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -1793,7 +1793,7 @@
 					)
 				)
 			)
-			(symbol "R_0201_1.5k_1_1"
+			(symbol "R_0402_1.5k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1833,7 +1833,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Resistor_0201:R_0201_100k"
+		(symbol "GS_Resistor_0402:R_0402_100k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1859,8 +1859,8 @@
 					)
 				)
 			)
-			(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-				(at 1.016 -0.254 90)
+			(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+				(at 0 22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1868,8 +1868,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0201FR-07100KL_C106224.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205131800_VO-SCR0402J100K_C3017514.pdf"
+				(at 0 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1877,8 +1877,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
+			(property "Description" "100k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+				(at 0.254 25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1886,8 +1886,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
+			(property "Manufacturer" "VO"
+				(at 0 27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1895,8 +1895,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "RC0201FR-07100KL"
-				(at 0 0 0)
+			(property "Mfr. Part #" "SCR0402J100K"
+				(at 0 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1904,8 +1904,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C106224"
-				(at 0 0 0)
+			(property "LCSC ID" "C3017514"
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1913,8 +1913,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 0 0)
+			(property "Package" "0402"
+				(at 0 29.718 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1940,7 +1940,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0201_100k_0_1"
+			(symbol "R_0402_100k_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -2002,7 +2002,7 @@
 					)
 				)
 			)
-			(symbol "R_0201_100k_1_1"
+			(symbol "R_0402_100k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2042,7 +2042,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GS_Resistor_0201:R_0201_10k"
+		(symbol "GS_Resistor_0402:R_0402_10k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2053,7 +2053,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at -4.826 0 90)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2068,8 +2068,8 @@
 					)
 				)
 			)
-			(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-				(at 0 15.24 0)
+			(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+				(at 0 22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2077,8 +2077,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121613_FH--Guangdong-Fenghua-Advanced-Tech-RC-01W103JT_C304504.pdf"
-				(at 0 18.034 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_RALEC-RTT02103JTH_C102759.pdf"
+				(at 0 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2086,8 +2086,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 20.32 0)
+			(property "Description" "10k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+				(at 0.254 25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2095,8 +2095,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-				(at 0 22.86 0)
+			(property "Manufacturer" "RALEC"
+				(at 0 27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2104,8 +2104,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. Part #" "RC-01W103JT"
-				(at -0.254 25.146 0)
+			(property "Mfr. Part #" "RTT02103JTH"
+				(at 0 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2113,8 +2113,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC ID" "C304504"
-				(at -0.254 27.432 0)
+			(property "LCSC ID" "C102759"
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2122,8 +2122,8 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0201"
-				(at 0 29.464 0)
+			(property "Package" "0402"
+				(at 0 29.718 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2149,7 +2149,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0201_10k_0_1"
+			(symbol "R_0402_10k_0_1"
 				(polyline
 					(pts
 						(xy 0 2.286) (xy 0 2.54)
@@ -2211,7 +2211,7 @@
 					)
 				)
 			)
-			(symbol "R_0201_10k_1_1"
+			(symbol "R_0402_10k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3974,7 +3974,7 @@
 		(uuid "ec75fabc-28fe-4da3-9053-6ebdf0485fc3")
 	)
 	(symbol
-		(lib_id "GS_Optoelectronic:LED_0201_Red")
+		(lib_id "GS_Optoelectronic:LED_0402_Red")
 		(at 110.49 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4000,8 +4000,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GS_Optoelectronics:LED_0201_0603Metric"
-			(at 110.49 49.53 0)
+		(property "Footprint" "GS_Optoelectronics:LED_0402_1005Metric"
+			(at 98.806 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,8 +4009,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-0201SURC_C3646923.pdf"
-			(at 110.49 49.53 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121310_XINGLIGHT-XL-1005SURC_C965790.pdf"
+			(at 102.616 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4019,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 110.49 49.53 0)
+			(at 97.028 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 49.53 0)
+			(at 89.916 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4037,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 110.49 49.53 0)
+			(at 100.838 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,8 +4045,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "XL-0201SURC"
-			(at 110.49 49.53 0)
+		(property "Mfr. Part #" "XL-1005SURC"
+			(at 93.218 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,8 +4054,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C3646923"
-			(at 110.49 49.53 0)
+		(property "LCSC ID" "C965790"
+			(at 95.25 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,13 +4063,21 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 110.49 49.53 0)
+		(property "Package" "0402"
+			(at 91.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4454,7 +4462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Resistor_0201:R_0201_1.5k")
+		(lib_id "GS_Resistor_0402:R_0402_1.5k")
 		(at 110.49 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4479,8 +4487,8 @@
 				)
 			)
 		)
-		(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-			(at 110.49 60.96 0)
+		(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+			(at 110.49 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,8 +4496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMJ0152TEE_C270328.pdf"
-			(at 110.49 58.928 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0402J152TS_C2929900.pdf"
+			(at 110.49 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,8 +4505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 110.49 62.992 0)
+		(property "Description" "1.5k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+			(at 110.236 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,8 +4514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 110.49 65.024 0)
+		(property "Manufacturer" "FOJAN"
+			(at 110.49 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,8 +4523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "0201WMJ0152TEE"
-			(at 110.49 67.056 0)
+		(property "Mfr. Part #" "FRC0402J152TS"
+			(at 110.49 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,8 +4532,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C270328"
-			(at 110.49 68.834 0)
+		(property "LCSC ID" "C2929900"
+			(at 110.49 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,8 +4541,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 110.49 70.612 0)
+		(property "Package" "0402"
+			(at 110.49 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Resistor_0201:R_0201_1.5k")
+		(lib_id "GS_Resistor_0402:R_0402_1.5k")
 		(at 110.49 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4592,8 +4600,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-			(at 110.49 88.9 0)
+		(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+			(at 110.49 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,8 +4609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMJ0152TEE_C270328.pdf"
-			(at 110.49 86.868 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0402J152TS_C2929900.pdf"
+			(at 110.49 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,8 +4618,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 110.49 90.932 0)
+		(property "Description" "1.5k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+			(at 110.236 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,8 +4627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 110.49 92.964 0)
+		(property "Manufacturer" "FOJAN"
+			(at 110.49 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,8 +4636,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "0201WMJ0152TEE"
-			(at 110.49 94.996 0)
+		(property "Mfr. Part #" "FRC0402J152TS"
+			(at 110.49 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,8 +4645,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C270328"
-			(at 110.49 96.774 0)
+		(property "LCSC ID" "C2929900"
+			(at 110.49 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,8 +4654,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 110.49 98.552 0)
+		(property "Package" "0402"
+			(at 110.49 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 20% Unpolarized capacitor, 6.3V Max Voltage, X5R"
 			(at 55.88 53.34 0)
 			(effects
 				(font
@@ -4905,7 +4913,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Capacitor_0201:C_0201_100nF")
+		(lib_id "GS_Capacitor_0402:C_0402_100nF")
 		(at 120.65 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4931,8 +4939,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GS_Capacitors:C_0201_0603Metric"
-			(at 121.6152 142.24 0)
+		(property "Footprint" "GS_Capacitors:C_0402_1005Metric"
+			(at 120.65 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,8 +4948,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0201X5R104M250ZT_C18164587.pdf"
-			(at 120.65 138.43 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0402X5R104K160AT_C344189.pdf"
+			(at 120.65 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,8 +4957,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 138.43 0)
+		(property "Description" "100nF 10% Unpolarized Capacitor, 16V Max Voltage, X5R"
+			(at 120.65 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4967,7 @@
 			)
 		)
 		(property "Manufacturer" "CCTC"
-			(at 120.65 138.43 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,8 +4975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 120.65 138.43 0)
+		(property "Package" "0402"
+			(at 120.65 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,8 +4984,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C18164587"
-			(at 120.65 138.43 0)
+		(property "LCSC ID" "C344189"
+			(at 120.65 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,8 +4993,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "TCC0201X5R104M250ZT"
-			(at 120.65 138.43 0)
+		(property "Mfr. Part #" "TCC0402X5R104K160AT"
+			(at 120.65 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5543,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Resistor_0201:R_0201_100k")
+		(lib_id "GS_Resistor_0402:R_0402_100k")
 		(at 30.48 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5561,8 +5569,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-			(at 31.496 125.984 90)
+		(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+			(at 30.48 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,8 +5578,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0201FR-07100KL_C106224.pdf"
-			(at 30.48 125.73 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205131800_VO-SCR0402J100K_C3017514.pdf"
+			(at 30.48 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,8 +5587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 30.48 125.73 0)
+		(property "Description" "100k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+			(at 30.734 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,8 +5596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 30.48 125.73 0)
+		(property "Manufacturer" "VO"
+			(at 30.48 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,8 +5605,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "RC0201FR-07100KL"
-			(at 30.48 125.73 0)
+		(property "Mfr. Part #" "SCR0402J100K"
+			(at 30.48 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,8 +5614,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C106224"
-			(at 30.48 125.73 0)
+		(property "LCSC ID" "C3017514"
+			(at 30.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,8 +5623,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 30.48 125.73 0)
+		(property "Package" "0402"
+			(at 30.48 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Optoelectronic:LED_0201_Green")
+		(lib_id "GS_Optoelectronic:LED_0402_Green")
 		(at 110.49 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5741,8 +5749,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GS_Optoelectronics:LED_0201_0603Metric"
-			(at 110.49 62.23 0)
+		(property "Footprint" "GS_Optoelectronics:LED_0402_1005Metric"
+			(at 98.806 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,8 +5758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-0201UGC_C3646922.pdf"
-			(at 110.49 62.23 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-1005UGC_C965793.pdf"
+			(at 102.616 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5768,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 110.49 62.23 0)
+			(at 97.028 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +5777,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 62.23 0)
+			(at 89.916 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +5786,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 110.49 62.23 0)
+			(at 100.838 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,8 +5794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "XL-0201UGC"
-			(at 110.49 62.23 0)
+		(property "Mfr. Part #" "XL-1005UGC"
+			(at 93.472 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,8 +5803,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C3646922"
-			(at 110.49 62.23 0)
+		(property "LCSC ID" "C965793"
+			(at 91.694 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,8 +5812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 110.49 62.23 0)
+		(property "Package" "0402"
+			(at 95.25 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Capacitor_0201:C_0201_100nF")
+		(lib_id "GS_Capacitor_0402:C_0402_100nF")
 		(at 157.48 121.92 0)
 		(mirror y)
 		(unit 1)
@@ -5864,8 +5872,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GS_Capacitors:C_0201_0603Metric"
-			(at 156.5148 125.73 0)
+		(property "Footprint" "GS_Capacitors:C_0402_1005Metric"
+			(at 157.48 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,8 +5881,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0201X5R104M250ZT_C18164587.pdf"
-			(at 157.48 121.92 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121315_CCTC-TCC0402X5R104K160AT_C344189.pdf"
+			(at 157.48 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,8 +5890,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 157.48 121.92 0)
+		(property "Description" "100nF 10% Unpolarized Capacitor, 16V Max Voltage, X5R"
+			(at 157.48 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +5900,7 @@
 			)
 		)
 		(property "Manufacturer" "CCTC"
-			(at 157.48 121.92 0)
+			(at 157.48 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,8 +5908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "TCC0201X5R104M250ZT"
-			(at 157.48 121.92 0)
+		(property "Mfr. Part #" "TCC0402X5R104K160AT"
+			(at 157.48 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,8 +5917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 157.48 121.92 0)
+		(property "Package" "0402"
+			(at 157.48 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,8 +5926,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C18164587"
-			(at 157.48 121.92 0)
+		(property "LCSC ID" "C344189"
+			(at 157.48 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 20% Unpolarized capacitor, 6.3V Max Voltage, X5R"
 			(at 177.8 138.43 0)
 			(effects
 				(font
@@ -6176,7 +6184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 20% Unpolarized capacitor, 6.3V Max Voltage, X5R"
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -6408,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 20% Unpolarized capacitor, 6.3V Max Voltage, X5R"
 			(at 38.1 53.34 0)
 			(effects
 				(font
@@ -6672,7 +6680,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GS_Resistor_0201:R_0201_10k")
+		(lib_id "GS_Resistor_0402:R_0402_10k")
 		(at 66.04 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6697,8 +6705,8 @@
 				)
 			)
 		)
-		(property "Footprint" "GS_Resistors:R_0201_0603Metric"
-			(at 66.04 50.8 0)
+		(property "Footprint" "GS_Resistors:R_0402_1005Metric"
+			(at 66.04 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,8 +6714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121613_FH--Guangdong-Fenghua-Advanced-Tech-RC-01W103JT_C304504.pdf"
-			(at 66.04 48.006 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_RALEC-RTT02103JTH_C102759.pdf"
+			(at 66.04 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,8 +6723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 66.04 45.72 0)
+		(property "Description" "10k 5% Resistor, 62.5mW Max Power, 50V Max Voltage, 100ppm"
+			(at 66.294 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,8 +6732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 66.04 43.18 0)
+		(property "Manufacturer" "RALEC"
+			(at 66.04 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,8 +6741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part #" "RC-01W103JT"
-			(at 65.786 40.894 0)
+		(property "Mfr. Part #" "RTT02103JTH"
+			(at 66.04 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,8 +6750,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC ID" "C304504"
-			(at 65.786 38.608 0)
+		(property "LCSC ID" "C102759"
+			(at 66.04 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,13 +6759,21 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0201"
-			(at 66.04 36.576 0)
+		(property "Package" "0402"
+			(at 66.04 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
