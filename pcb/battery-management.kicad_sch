@@ -3642,16 +3642,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 171.45) (xy 80.01 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e90b14-03f8-46d6-b77e-230932671824")
-	)
-	(wire
-		(pts
 			(xy 78.74 74.93) (xy 78.74 60.96)
 		)
 		(stroke
@@ -3669,6 +3659,16 @@
 			(type default)
 		)
 		(uuid "89978039-3f41-45cf-b696-0f67b3a0e9ca")
+	)
+	(wire
+		(pts
+			(xy 71.12 177.8) (xy 71.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e958184-f286-45f8-9c3e-f0b4b7b2393e")
 	)
 	(wire
 		(pts
@@ -3782,6 +3782,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 171.45) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc38619-0950-4a2b-b426-deb2735db437")
+	)
+	(wire
+		(pts
 			(xy 168.91 125.73) (xy 172.72 125.73)
 		)
 		(stroke
@@ -3799,16 +3809,6 @@
 			(type default)
 		)
 		(uuid "d60530b5-101b-4bb0-841d-f1ea4024db4a")
-	)
-	(wire
-		(pts
-			(xy 71.12 125.73) (xy 71.12 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7682eb1-87a2-4bd0-9ab8-dc63e8d7233d")
 	)
 	(wire
 		(pts
@@ -6365,6 +6365,73 @@
 			(project ""
 				(path "/d639f16d-aedb-4af6-af94-94ea25244267/528e496b-ccc4-4c28-b7b2-36634450f252"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4484149-1d8b-4e58-8357-f33bec7c4e49")
+		(property "Reference" "#PWR015"
+			(at 71.12 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e54d4e20-a45e-49bb-a060-b696dfd14539")
+		)
+		(instances
+			(project "microcouple"
+				(path "/d639f16d-aedb-4af6-af94-94ea25244267/528e496b-ccc4-4c28-b7b2-36634450f252"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
