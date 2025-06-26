@@ -7,7 +7,7 @@
 	(title_block
 		(title "Capacitive Touch")
 		(date "2025-04-27")
-		(rev "A")
+		(rev "2.0.0")
 		(company "George Sleen")
 	)
 	(lib_symbols
@@ -7016,14 +7016,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 121.92 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "20"
 			(uuid "1e38b646-1463-40da-a0bb-784255742d33")
 		)
@@ -7265,14 +7257,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 107.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -7629,7 +7613,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "827d8ea0-0a25-4e74-badd-952579e76449")
 		(property "Reference" "#PWR074"
 			(at 186.69 116.84 0)
@@ -7641,7 +7624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 111.7599 0)
+			(at 184.658 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +7679,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a471a551-c823-4c7f-b898-559fd3852e5d")
 		(property "Reference" "#PWR072"
 			(at 176.53 116.84 0)
@@ -7708,7 +7690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 111.7599 0)
+			(at 174.498 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7745,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad3a42a1-705b-4c83-bad7-20530f27d627")
 		(property "Reference" "#PWR073"
 			(at 181.61 116.84 0)
@@ -7775,7 +7756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 111.7599 0)
+			(at 179.578 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,14 +7960,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 72.39 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "75798566-4f0a-4e26-9a28-deeb46505423")
 		)
@@ -8160,14 +8133,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 83.82 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "aa65af66-acf7-452c-850a-d17fe14e8f5b")
 		)
@@ -8234,14 +8199,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "5"
@@ -8360,14 +8317,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 72.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"

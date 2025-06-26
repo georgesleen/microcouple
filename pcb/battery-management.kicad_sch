@@ -7,7 +7,7 @@
 	(title_block
 		(title "Battery Management")
 		(date "2025-04-27")
-		(rev "A")
+		(rev "2.0.0")
 		(company "George Sleen")
 	)
 	(lib_symbols
@@ -2507,7 +2507,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
+				(at 0 22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2518,7 +2518,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300133_MDD-Microdiode-Semiconductor-AO3415_C840839.pdf"
-				(at 5.08 -3.81 0)
+				(at 0 20.447 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2528,7 +2528,7 @@
 				)
 			)
 			(property "Description" "-4.8A Id, -20V Vds, 8V Vgs, 37mR Rds(on), P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
+				(at -0.508 17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2537,7 +2537,7 @@
 				)
 			)
 			(property "Manufacturer" "MDD(Microdiode Semiconductor)"
-				(at 0 0 0)
+				(at 0 14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2546,7 +2546,7 @@
 				)
 			)
 			(property "Mfr. Part #" "AO3415"
-				(at 0 0 0)
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2555,7 +2555,7 @@
 				)
 			)
 			(property "LCSC ID" "C840839"
-				(at 0 0 0)
+				(at 0.508 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 				)
 			)
 			(property "Package" "SOT-23"
-				(at 0 0 0)
+				(at 0 32.766 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4072,14 +4072,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 110.49 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "40bc458b-08df-41d0-8d29-1d49275b73de")
 		)
@@ -4246,14 +4238,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -4426,14 +4410,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 134.62 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d2639cc7-ca29-4158-b7ab-d459fd0321ab")
 		)
@@ -4550,14 +4526,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 110.49 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1ae3144f-b58a-48c0-9ceb-28f3d204a236")
 		)
@@ -4661,14 +4629,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 110.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -4777,14 +4737,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ae0e7b8e-5b9d-41d2-8d9d-80db9e37e41f")
 		)
@@ -4887,14 +4839,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 62.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -5000,14 +4944,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 120.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -5246,14 +5182,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 53.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -5632,14 +5560,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 30.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6aaa4e0a-d9e8-4459-9fc5-0ad55e3daa64")
 		)
@@ -5821,14 +5741,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 110.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "cba4e2cb-ecbc-410a-b69f-7b149891ca45")
 		)
@@ -5933,14 +5845,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 157.48 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6115,14 +6019,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 177.8 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d6749541-b0b4-4fe5-b3c7-cfe061eb7e5b")
 		)
@@ -6229,14 +6125,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 100.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c37a5234-04fd-4d6a-88a8-3ca3ab7baa6c")
 		)
@@ -6339,14 +6227,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 85.09 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6526,14 +6406,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 38.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -6835,14 +6707,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 66.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "068463a2-0c4e-455b-a556-69d1cb80120c")
 		)
@@ -6949,14 +6813,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 78.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
